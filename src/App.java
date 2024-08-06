@@ -23,6 +23,8 @@ public class App {
             System.out.print("Saldo R$: ");
             conta.setSaldo(leitor.nextDouble());
 
+            System.out.println();
+
             System.out.println(conta.toString());
         } catch (InputMismatchException e) {
             System.out.println("Erro na entrada de dados. Por favor, insira os dados corretamente.");
